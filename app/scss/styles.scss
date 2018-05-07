@@ -6,6 +6,8 @@
 
 // Google Fonts - Montserrat
 // via [google-webfonts-helper](https://google-webfonts-helper.herokuapp.com/fonts)
+// IE 11 doesn't support woff2, which is the Google-hosted default.
+// Self-hosting allows us to include the woff font files, which IE will be able to render.
 
 /* montserrat-500 - latin */
 @font-face {
