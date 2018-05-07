@@ -24,13 +24,20 @@ This is an example landing page. [View the build](http://landing-page.bg.surge.s
 * [useref](https://github.com/jonkemp/useref) - concatenates CSS and JavaScript files
 
 ## Explore the Source Code ##
-View [/app/](https://github.com/bgrapes/landing-page/tree/master/app) for the full source code. Here are some shortcuts to some important files:
+View [/app/](app/) for the full source code. Here are some shortcuts to some important files:
 
-* [app/index.html](https://github.com/bgrapes/landing-page/blob/master/app/index.html) - HTML file
-* [app/scss/styles.scss](https://github.com/bgrapes/landing-page/blob/master/app/scss/styles.scss) - main stylesheet
-* [app/js/main.js](https://github.com/bgrapes/landing-page/blob/master/app/js/main.js) - main JavaScript file
+* [app/index.html](app/index.html) - HTML file
+* [app/scss/styles.scss](app/scss/styles.scss) - main stylesheet
+* [app/js/main.js](app/js/main.js) - main JavaScript file
 
-View [/dist/](https://github.com/bgrapes/landing-page/tree/master/dist) for the minified code, ready for production.
+View [/dist/](dist/) for the minified code, ready for production.
+
+## Installation and Development ##
+1. Fork and clone the project.
+2. Run `npm install` to install the [`package.json`](package.json) dependencies.
+3. Run `gulp` to launch the site at http://localhost:3000 and watch for file changes.
+4. Run `gulp build` to create a production-ready build in the [`dist`](dist/) directory.
+5. Run `cd dist` and `surge` to deploy to [Surge](http://surge.sh), a static site hosting platform.
 
 ## See it in Action ##
 [View the build](http://landing-page.bg.surge.sh/) on Surge.
