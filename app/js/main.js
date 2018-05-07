@@ -52,4 +52,12 @@ $(document).ready(function() {
     toggleAffix(ele, $(window), wrapper);
   });
   
+  // Dismiss dropdown navbar on click
+  $('.navbar-nav>a').on('click', function(){
+      $('.navbar-collapse').collapse('hide');
+  });
+  $('.navbar-brand').on('click', function(){
+      $('.navbar-collapse').collapse('hide');
+  });
+  
 });
