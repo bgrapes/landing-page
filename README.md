@@ -1,5 +1,7 @@
 # Landing Page #
-This is an example landing page.
+This is an example landing page. [View the build](http://landing-page.bg.surge.sh/) on Surge.
+
+<img src="http://bgrapes.com/img/landing-page-2.jpg" alt="An example landing page by Brian Grapes" width="600" />
 
 ## Technologies and Tools Used ##
 * HTML5
@@ -22,7 +24,7 @@ This is an example landing page.
 * [useref](https://github.com/jonkemp/useref) - concatenates CSS and JavaScript files
 
 ## Explore the Source Code ##
-View [/app/](https://github.com/bgrapes/landing-page/tree/master/app) for the full source code.
+View [/app/](https://github.com/bgrapes/landing-page/tree/master/app) for the full source code. Here are some shortcuts to some important files:
 
 * [app/index.html](https://github.com/bgrapes/landing-page/blob/master/app/index.html) - HTML file
 * [app/scss/styles.scss](https://github.com/bgrapes/landing-page/blob/master/app/scss/styles.scss) - main stylesheet
@@ -31,4 +33,4 @@ View [/app/](https://github.com/bgrapes/landing-page/tree/master/app) for the fu
 View [/dist/](https://github.com/bgrapes/landing-page/tree/master/dist) for the minified code, ready for production.
 
 ## See it in Action ##
-[View the build](http://landing-page.bg.surge.sh/) on Surge
+[View the build](http://landing-page.bg.surge.sh/) on Surge.
