@@ -37,7 +37,6 @@ $(document).ready(function() {
     }
       
   };
-  
 
   $('[data-toggle="affix"]').each(function() {
     var ele = $(this),
@@ -51,7 +50,7 @@ $(document).ready(function() {
     // init
     toggleAffix(ele, $(window), wrapper);
   });
-  
+
   // Dismiss dropdown navbar on click
   $('.navbar-nav>a').on('click', function(){
       $('.navbar-collapse').collapse('hide');
