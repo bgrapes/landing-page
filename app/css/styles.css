@@ -95,7 +95,7 @@ body {
   .pricing p {
     text-align: center; }
   .pricing .pricing-card {
-    max-width: 400px; }
+    max-width: 375px; }
     .pricing .pricing-card .pricing-card-header {
       background-image: linear-gradient(to right, #7782fe, #4eb3f7);
       padding: 2rem 0 1.5rem; }
