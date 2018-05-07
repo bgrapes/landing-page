@@ -1,7 +1,7 @@
 # Landing Page #
 This is an example landing page. [View the build](http://landing-page.bg.surge.sh/) on Surge.
 
-<img src="http://bgrapes.com/img/landing-page-2.jpg" alt="An example landing page by Brian Grapes" width="600" />
+[<img src="http://bgrapes.com/img/landing-page-2.jpg" alt="An example landing page by Brian Grapes" width="600" />](http://landing-page.bg.surge.sh/)
 
 ## Technologies and Tools Used ##
 * HTML5
