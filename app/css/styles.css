@@ -30,8 +30,6 @@ body {
     .navbar.affix .navbar-brand img {
       height: 25px;
       width: 100px !important; }
-    .navbar.affix .nav-item {
-      padding: 0.1rem; }
   .navbar .navbar-brand img {
     height: 49px;
     width: 200px; }
