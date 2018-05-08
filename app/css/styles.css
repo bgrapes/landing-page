@@ -45,17 +45,17 @@ body {
   transition: padding 0.2s ease; }
   .navbar.affix {
     padding-top: 0.2rem !important;
-    padding-bottom: 0.2rem !important;
-    -webkit-transition: padding 0.2s linear;
-    -moz-transition: padding 0.2s linear;
-    -o-transition: padding 0.2s linear;
-    transition: padding 0.2s linear; }
+    padding-bottom: 0.2rem !important; }
     .navbar.affix .navbar-brand img {
       height: 25px;
       width: 100px !important; }
   .navbar .navbar-brand img {
     height: 49px;
-    width: 200px; }
+    width: 200px;
+    -webkit-transition: width 0.2s, height 0.2s;
+    -moz-transition: width 0.2s, height 0.2s;
+    -o-transition: width 0.2s, height 0.2s;
+    transition: width 0.2s, height 0.2s; }
   .navbar .navbar-toggler {
     color: #fff; }
   .navbar .navbar-nav a {

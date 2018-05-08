@@ -76,18 +76,14 @@ body {
 
 .navbar {
   background-image: linear-gradient(to right, $cornflower-blue, $picton-blue);
-  -webkit-transition:padding 0.2s ease;
-  -moz-transition:padding 0.2s ease;
-  -o-transition:padding 0.2s ease;
-  transition:padding 0.2s ease;
+  -webkit-transition: padding 0.2s ease;
+  -moz-transition: padding 0.2s ease;
+  -o-transition: padding 0.2s ease;
+  transition: padding 0.2s ease;
 
   &.affix {
     padding-top: 0.2rem !important;
     padding-bottom: 0.2rem !important;
-    -webkit-transition:padding 0.2s linear;
-    -moz-transition:padding 0.2s linear;  
-    -o-transition:padding 0.2s linear;         
-    transition:padding 0.2s linear;
 
     .navbar-brand img {
       height: 25px;
@@ -98,6 +94,10 @@ body {
   .navbar-brand img {
     height: 49px;
     width: 200px;
+    -webkit-transition: width 0.2s, height 0.2s;
+    -moz-transition: width 0.2s, height 0.2s;
+    -o-transition: width 0.2s, height 0.2s;
+    transition: width 0.2s, height 0.2s;
   }
 
   .navbar-toggler {
