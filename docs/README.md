@@ -1,7 +1,9 @@
 # Landing Page #
-This is an example landing page. [View the build](http://landing-page.bg.surge.sh/) on Surge.
+An example landing page. 
 
-[<img src="http://bgrapes.com/img/landing-page-2.jpg" alt="An example landing page by Brian Grapes" width="600" />](http://landing-page.bg.surge.sh/)
+[View Demo](http://landing-page.bg.surge.sh/)
+
+![Landing page by Brian Grapes](project_screenshot.jpg)
 
 ## Technologies and Tools Used ##
 * HTML5
@@ -33,11 +35,8 @@ View [/app/](app/) for the full source code. Here are some shortcuts to some imp
 View [/dist/](dist/) for the minified code, ready for production.
 
 ## Installation and Development ##
-1. Fork and clone the project.
-2. Run `npm install` to install the [`package.json`](package.json) dependencies.
+1. Clone the project.
+2. Run `npm install`.
 3. Run `gulp` to launch the site at http://localhost:3000 and watch for file changes.
 4. Run `gulp build` to create a production-ready build in the [`dist`](dist/) directory.
 5. Run `cd dist` and `surge` to deploy to [Surge](http://surge.sh), a static site hosting platform.
-
-## See it in Action ##
-[View the build](http://landing-page.bg.surge.sh/) on Surge.
